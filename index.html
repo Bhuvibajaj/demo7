@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h id="head" onmouseover="test1()" onmouseout="test2()">click</h>
+</body>
+<script>
+    function test1(){
+        var a=document.getElementById("head")
+        a.style.color="blue"
+        a.style.fontSize="70px"
+    }
+    function test2(){
+        var a=document.getElementById("head")
+        a.style.color="green"
+        a.style.fontSize="20px"
+    }
+    
+</script>
+</html>
